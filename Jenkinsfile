@@ -4,7 +4,7 @@ pipeline {
         stage ("Build stage"){
             steps{
                 bat "echo 'aaaa'"
-                bat "type ./README.md"
+                C:\Program Files\Git\bin\sh.exe "cat ./README.md"
                 
             }
         }
